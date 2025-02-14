@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern 3D Quiz App</title>
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --success-color: #4cc9f0;
+            --error-color: #f72585;
+            --background-color: #000000;
+            --card-background: #1a1a1a;
+            --text-color: #ffffff;
+            --text-secondary: #a0a0a0;
+            --border-color: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--background-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+
+        #quiz-container {
+            max-width: 800px;
+            width: 95%;
+            margin: auto;
+            padding: 2rem;
+            background: var(--card-background);
+            border-radius: 20px;
+            box-shadow: 
+                0 10px 20px rgba(0,0,0,0.3),
+                0 6px 6px rgba(0,0,0,0.2),
+                0 0 100px rgba(67, 97, 238, 0.1);
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            text-align: center;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 4px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        #options {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            gap: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            #options {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        #options li {
+            background: #242424;
+            padding: 1rem;
+            border-radius: 12px;
+            cursor: pointer;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            transform-style: preserve-3d;
+        }
+
+        #options li:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 5px 15px rgba(67, 97, 238, 0.2);
+            border-color: var(--primary-color);
+            background: #2a2a2a;
+        }
+
+        #options li.correct {
+            background: linear-gradient(135deg, #1a472a 0%, #2d5a3f 100%);
+            color: white;
+            border: none;
+        }
+
+        #options li.wrong {
+            background: linear-gradient(135deg, #3d0000 0%, #5c0000 100%);
+            color: white;
+            border: none;
+            animation: shake 0.5s ease-in-out;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        #next-btn {
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            width: 100%;
+            cursor: pointer;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: none;
+        }
+
+        #next-btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
+        }
+
+        .completion-message {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .completion-message h2 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .completion-message p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .review-button {
+            background: linear-gradient(135deg, #f72585 0%, #b5179e 100%);
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 12px;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .review-button:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 5px 15px rgba(247, 37, 133, 0.4);
+        }
+
+        .wrong-answers-container {
+            margin-top: 2rem;
+            padding: 1rem;
+            border-radius: 12px;
+            background: #242424;
+        }
+
+        .wrong-answer-item {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border-radius: 8px;
+            background: #2a2a2a;
+            border-left: 4px solid var(--error-color);
+        }
+
+        .wrong-answer-item h3 {
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .wrong-answer-detail {
+            color: var(--text-secondary);
+            margin: 0.5rem 0;
+        }
+
+        .correct-answer {
+            color: #4cc9f0;
+            font-weight: bold;
+        }
+
+        .your-answer {
+            color: #f72585;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="quiz-container">
+        <h2 id="question">Loading...</h2>
+        <ul id="options"></ul>
+        <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <script>
+        let quizData = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let wrongAnswers = [];
+
+        // Fetch JSON file
+        fetch("output2.json")
+            .then(response => response.json())
+            .then(data => {
+                quizData = shuffleArray(data);
+                loadQuestion();
+            })
+            .catch(error => {
+                console.error("Error loading JSON:", error);
+                document.getElementById("question").innerText = "Error loading quiz. Please try again.";
+            });
+
+        function shuffleArray(array) {
+            return [...array].sort(() => Math.random() - 0.5);
+        }
+
+        function loadQuestion() {
+            if (currentQuestionIndex >= quizData.length) {
+                showCompletion();
+                return;
+            }
+
+            let questionData = quizData[currentQuestionIndex];
+            document.getElementById("question").innerText = questionData["questions"];
+            let options = document.getElementById("options");
+            options.innerHTML = "";
+            document.getElementById("next-btn").style.display = "none";
+
+            // Using the new JSON structure with a, B, c, d
+            ["a", "B", "c", "d"].forEach((key, index) => {
+                if (questionData[key]) {
+                    let option = document.createElement("li");
+                    option.innerText = questionData[key];
+                    option.onclick = () => checkAnswer(option, key.toLowerCase(), questionData["ans"]);
+                    options.appendChild(option);
+                }
+            });
+        }
+
+        function checkAnswer(option, selectedKey, correctAnswer) {
+            let options = document.querySelectorAll("#options li");
+            let currentQuestion = quizData[currentQuestionIndex];
+            
+            options.forEach(opt => opt.style.pointerEvents = 'none');
+
+            options.forEach((opt, idx) => {
+                opt.classList.remove("correct", "wrong");
+                if (["a", "B", "c", "d"][idx] === correctAnswer) {
+                    opt.classList.add("correct");
+                }
+            });
+
+            if (selectedKey === correctAnswer) {
+                score++;
+            } else {
+                option.classList.add("wrong");
+                // Store wrong answer details
+                wrongAnswers.push({
+                    question: currentQuestion["questions"],
+                    correctAnswer: currentQuestion[correctAnswer],
+                    yourAnswer: currentQuestion[selectedKey],
+                    correctLetter: correctAnswer.toUpperCase(),
+                    yourLetter: selectedKey.toUpperCase(),
+                    chapter: currentQuestion["Unnamed: 7"] || "Not specified"
+                });
+            }
+
+            document.getElementById("next-btn").style.display = "block";
+        }
+
+        function showCompletion() {
+            let completionHTML = `
+                <div class="completion-message">
+                    <h2>Quiz Completed! 🎉</h2>
+                    <p>Your final score: ${score}/${quizData.length}</p>
+                    ${wrongAnswers.length > 0 ? 
+                        `<button class="review-button" onclick="showWrongAnswers()">Show Wrong Answers</button>` 
+                        : ''}
+                </div>`;
+            document.getElementById("quiz-container").innerHTML = completionHTML;
+        }
+
+        function showWrongAnswers() {
+            let wrongAnswersHTML = `
+                <div class="completion-message">
+                    <h2>Quiz Results</h2>
+                    <p>Your final score: ${score}/${quizData.length}</p>
+                    <div class="wrong-answers-container">
+                        <h2>Questions Answered Incorrectly:</h2>
+                        ${wrongAnswers.map((wrong, index) => `
+                            <div class="wrong-answer-item">
+                                <h3>Question ${index + 1} (${wrong.chapter}):</h3>
+                                <p>${wrong.question}</p>
+                                <p class="wrong-answer-detail">Your Answer (${wrong.yourLetter}): 
+                                    <span class="your-answer">${wrong.yourAnswer}</span>
+                                </p>
+                                <p class="wrong-answer-detail">Correct Answer (${wrong.correctLetter}): 
+                                    <span class="correct-answer">${wrong.correctAnswer}</span>
+                                </p>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <button class="review-button" onclick="showCompletion()">Back to Results</button>
+                </div>`;
+            document.getElementById("quiz-container").innerHTML = wrongAnswersHTML;
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            loadQuestion();
+        }
+    </script>
+</body>
+</html>

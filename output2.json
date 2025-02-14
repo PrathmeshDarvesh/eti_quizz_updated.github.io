@@ -1,0 +1,1512 @@
+[
+    {
+        "sr no":1,
+        "questions":"IoT stands for______.",
+        "a":"Internet of Technology",
+        "B":"Intranet of Things ",
+        "c":"Internet of Things",
+        "d":"Information of Things",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":2,
+        "questions":"IoT devices may have______ capability, allowing a large number of devices to work together to provide certain functionality.",
+        "a":"self-configuring",
+        "B":"dynamically adaptability",
+        "c":"interoperability",
+        "d":"integration",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":3,
+        "questions":"Which is not the Characteristics of IoT?",
+        "a":"Dynamic and Self-Adapting",
+        "B":"Self-Configuring",
+        "c":"End point Management",
+        "d":"Integrated into Information Network",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":4,
+        "questions":"Which is not the Feature of IoT?",
+        "a":"Connectivity",
+        "B":"Self-Configuring ",
+        "c":"End point Management",
+        "d":"Artificial Intelligence",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":5,
+        "questions":"IoT technologies detect and measure any change in the environment and report on their status using ______.",
+        "a":"Sensor devices",
+        "B":"Artificial intelligence",
+        "c":"Active engagement",
+        "d":"Endpoint management",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":6,
+        "questions":"Which is not IoT based home application?",
+        "a":"Smoke detectors",
+        "B":"Intrusion detection systems ",
+        "c":"Gas detectors",
+        "d":"Weather monitoring",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":7,
+        "questions":"An IoT device may consist of several interfaces for connections to other devices, both wired and wireless which includes______.",
+        "a":"I\/O interfaces for sensors",
+        "B":"Interfaces for Internet connectivity ",
+        "c":"Memory and storage interfaces",
+        "d":"All of the Above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":8,
+        "questions":"The ______ sensing technologies most commonly used in sensors are electrochemical, photo-ionisation and semiconductor.",
+        "a":"Gas",
+        "B":"Smoke",
+        "c":"Pressure",
+        "d":"Image",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":9,
+        "questions":"BMP180 is a popular digital ______ sensor for use in mobile phones, PDAs, GPS navigation devices and outdoor equipment.",
+        "a":"Gas",
+        "B":"Smoke",
+        "c":"Pressure",
+        "d":"Image",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":10,
+        "questions":"______sensors are also used in smart vehicles and aircrafts to determine force and altitude, respectively.",
+        "a":"Pressure",
+        "B":"Image ",
+        "c":"Acclerometer",
+        "d":"IR",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":11,
+        "questions":"imaging systems, night-vision equipment, thermal imaging devices, radars, sonars, media house and biometric systems.",
+        "a":"Image",
+        "B":"Accelerometer",
+        "c":"IR",
+        "d":"Proximity",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":12,
+        "questions":"Sensors detect the presence or absence of a nearby object without any physical contact.",
+        "a":"Proximity",
+        "B":"Image ",
+        "c":"Accelerometer",
+        "d":"IR",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":13,
+        "questions":"\t______is a small device that incorporates a two wire DC motor, a gear train, a potentiometer, an integrated circuit, and a shaft (output spine).",
+        "a":"Servomotor",
+        "B":"Step per motor",
+        "c":"DC motor",
+        "d":"Relay",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":14,
+        "questions":"______ motor is the most common actuator used in electronics projects which are simple, cheap, and easy to use.",
+        "a":"DC motor",
+        "B":"Step per motor",
+        "c":"Servo motor",
+        "d":"None of the above.",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":15,
+        "questions":"Following figure shows______.",
+        "a":"Solenoid",
+        "B":"Relay ",
+        "c":"Linear Actuator",
+        "d":"None of the above",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":16,
+        "questions":"______is a light-weight messaging protocol based on the publish-subscribe model.",
+        "a":"Web Socket",
+        "B":"Message Queue Telemetry Transport ",
+        "c":"Extensible Messaging and Presence Protocol",
+        "d":"Advanced Message Queuing Protocol",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":17,
+        "questions":"______is an open application layer protocol for business messaging.",
+        "a":"Web Socket",
+        "B":"Message Queue Telemetry Transport ",
+        "c":"Extensible Messaging and Presence Protocol",
+        "d":"Advanced Message Queuing Protocol",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":18,
+        "questions":"Link layer protocols determine how the data is physically sent over the network\u2019s______.",
+        "a":"Transport layer",
+        "B":"Application layer",
+        "c":"Physical layer",
+        "d":"None of these",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":19,
+        "questions":"Devices that transform electrical signals into physical movements are ______.",
+        "a":"Sensors",
+        "B":"Actuators",
+        "c":"Switches",
+        "d":"display",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":20,
+        "questions":"What does LTE stand for?",
+        "a":"Long Term Errors",
+        "B":"Long Term Evolution",
+        "c":"Lengthy Terminal Estimation",
+        "d":"Long Term Estimates",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":21,
+        "questions":"Which sensor is LM35?",
+        "a":"Pressure sensor",
+        "B":"Humidity sensor",
+        "c":"Temperature sensor",
+        "d":"Touch sensor",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":22,
+        "questions":"Which of the following is a protocol related to IoT?",
+        "a":"Zig bee",
+        "B":"6 Low PAN",
+        "c":"CoAP",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":23,
+        "questions":"______ is a collection of wired Ethernet standard for the link layer.",
+        "a":"IEEE 802.3",
+        "B":"IEEE 802.11",
+        "c":"IEEE 802.16",
+        "d":"IEEE 802.15.4",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":24,
+        "questions":"______ is a collection of WLAN communication standards.",
+        "a":"IEEE 802.3",
+        "B":"IEEE 802.11",
+        "c":"IEEE 802.16",
+        "d":"IEEE 802.15.4",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":25,
+        "questions":"______ is a collection of wireless broad band standards (Wi Max).",
+        "a":"IEEE 802.3",
+        "B":"IEEE 802.11",
+        "c":"IEEE 802.16",
+        "d":"IEEE 802.15.4",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":26,
+        "questions":"______is a collection of standards for LR-WPANs.",
+        "a":"IEEE 802.3",
+        "B":"IEEE 802.11",
+        "c":"IEEE 802.16",
+        "d":"IEEE 802.15.4",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":27,
+        "questions":"LR-WPANs standards from the basis of specifications for high-level communication protocol such as______.",
+        "a":"Zigbee",
+        "B":"Allsean",
+        "c":"Tyrell",
+        "d":"Microsoft\u2019s Azure",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":28,
+        "questions":"______ includes GSM and CDMA.",
+        "a":"2G",
+        "B":"3G",
+        "c":"4G",
+        "d":"5G",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":29,
+        "questions":"______ includes UMTS and CDMA 2000.",
+        "a":"2G",
+        "B":"3G",
+        "c":"4G",
+        "d":"5G",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":30,
+        "questions":"______ includes LTE",
+        "a":"2G",
+        "B":"3G",
+        "c":"4G",
+        "d":"5G",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":31,
+        "questions":"______ layer is responsible for sending of IP data grams from the source network to the destination network.",
+        "a":"Application layer",
+        "B":"Transport layer",
+        "c":"Network layer",
+        "d":"Link-layer",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":32,
+        "questions":"______layer performs the host addressing and packet routing.",
+        "a":"Application layer",
+        "B":"Transport layer",
+        "c":"Network layer",
+        "d":"Link-layer",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":33,
+        "questions":"_____ protocols provide end to end message transfer capability independent of the underlying network.",
+        "a":"Network layer",
+        "B":"Transport layer ",
+        "c":"Application layer",
+        "d":"Link-layer",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":34,
+        "questions":"The ______ protocols define how the applications interface with the lower-layer protocol to send the data over the network.",
+        "a":"Network layer",
+        "B":"Transport layer ",
+        "c":"Application layer",
+        "d":"Link-layer",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":35,
+        "questions":"6 LOW PAN stands for______.",
+        "a":"6 LOW Personal Area Network",
+        "B":"IPv6 LOW Personal Area Network",
+        "c":"IPv6 over Low power wireless personal area network",
+        "d":"None of the above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":36,
+        "questions":"802.3 is the standard for 10 BASE 5 Ethernet that uses ______ cable as shared medium.",
+        "a":"Twisted pair cable",
+        "B":"Coaxial cable",
+        "c":"Fiber optic cable",
+        "d":"None of the above",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":37,
+        "questions":"IEEE802.11 standards provide data rates______.",
+        "a":"10 Gbit\/s",
+        "B":"1 Gbit\/s",
+        "c":"1 Mb\/s to upto 6.75Gb\/s",
+        "d":"250 Kb\/s",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":38,
+        "questions":"The10\/100 Mb it Ethernet support enables the board to connect to______.",
+        "a":"LAN",
+        "B":"MAN",
+        "c":"WAN",
+        "d":"WLAN",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":39,
+        "questions":"Which one out of these is not a data link layer technology?",
+        "a":"Bluetooth",
+        "B":"UART",
+        "c":"Wi-Fi",
+        "d":"HTTP",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":40,
+        "questions":"MQTT is ______ protocol.",
+        "a":"Machine to Machine",
+        "B":"Internet of Things",
+        "c":"Machine to Machine and Internet of Things",
+        "d":"Machine Things",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":41,
+        "questions":"MQTT is ______.",
+        "a":"Based on client-server architecture",
+        "B":"Based on publish-subscribe architecture",
+        "c":"Based on both of the above",
+        "d":"Based on none of the above",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":42,
+        "questions":"Solenoid is a specially designed______.",
+        "a":"Actuator",
+        "B":"Machine",
+        "c":"Electromagnet",
+        "d":"None of above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":43,
+        "questions":"Image sensors are found in ______.",
+        "a":"Cameras",
+        "B":"Night-vision equipment ",
+        "c":"Sonars",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":44,
+        "questions":"______ sensor measure heat emitted by objects.",
+        "a":"Smoke Sensor",
+        "B":"Temperature Sensor",
+        "c":"IR Sensor",
+        "d":"Proximity Sensor",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":45,
+        "questions":"DC motors convert electric al into ______ energy.",
+        "a":"Mechanical",
+        "B":"Wind",
+        "c":"Electric",
+        "d":null,
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":46,
+        "questions":"Gas sensors are used to detect ______ gases.",
+        "a":"Toxic",
+        "B":"Natural",
+        "c":"Oxygen",
+        "d":"Hydrogen",
+        "ans":null,
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":47,
+        "questions":"The ____________provide the connectivity for all components and physically separated functions within the NGN",
+        "a":"Transport functions",
+        "B":"Access network functions",
+        "c":"Gateway functions",
+        "d":"Resource and admission control functions (RACF)",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":48,
+        "questions":"The _________ take care of end-user\u2019s access to the network as well as Collecting and aggregating the traffic coming from these accesses towards the Core network.",
+        "a":"Transport functions",
+        "B":"Access network functions",
+        "c":"Gateway functions",
+        "d":"Resource and admission control functions (RACF)",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":49,
+        "questions":"__________ functions also perform QoS control mechanisms dealing directly with user traffic, including buffer management, queuing and scheduling, packet filtering, traffic classification, marking, policing, and shaping.",
+        "a":"Transport functions",
+        "B":"Access network functions",
+        "c":"Gateway functions",
+        "d":"Resource and admission control functions (RACF)",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":50,
+        "questions":"The __________ provide capabilities to interwork with end-user functions and\/or other networks, including other types of NGN and many existing networks, such as the PSTN\/ISDN, the public Internet, and so forth.",
+        "a":"Transport functions",
+        "B":"Access network functions",
+        "c":"Gateway functions",
+        "d":"Resource and admission control functions (RACF)",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":51,
+        "questions":"_____________is arbitrator between service control function and transport function.",
+        "a":"Resource and admission control function",
+        "B":"Access network function",
+        "c":"Gateway function",
+        "d":"Service control function",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":52,
+        "questions":"____________receive content from the Application support function and service support function.",
+        "a":"Access network function",
+        "B":"Access network function",
+        "c":"Service control function",
+        "d":"Content delivery function",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":53,
+        "questions":"._________is used for dynamic provision of IP addresses and user equipment configuration parameters.",
+        "a":"Network attachment control function",
+        "B":"Access network functions",
+        "c":"Gateway function",
+        "d":"Service control function",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":54,
+        "questions":"Media Gateway controller known as_____________.",
+        "a":"Soft switches",
+        "B":"Call controller",
+        "c":"Wireless call server or call agent",
+        "d":"All of above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":55,
+        "questions":"Media Gateway located in___________ layer of NGN",
+        "a":"Access Layer",
+        "B":"Transport Layer",
+        "c":"Control Layer",
+        "d":"Service Layer",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":56,
+        "questions":".__________is responsible for functions such as media conversion circuit to packet, packet to circuit.",
+        "a":"Access Gateway",
+        "B":"Trunk Media Gateway",
+        "c":"Signalling Gateway",
+        "d":"Border Gateway",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":57,
+        "questions":"_________provides the signalling interface between the VoIP network and the PSTN signalling network.",
+        "a":"Access Gateway",
+        "B":"Trunk Media Gateway",
+        "c":"Signalling Gateway",
+        "d":"Border Gateway",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":58,
+        "questions":"____________is deployed at the edge and core of a service provider\u2019s network to control signalling and media streams as they enter and exit the network.",
+        "a":"Access Gateway",
+        "B":"Trunk Media Gateway",
+        "c":"Signalling Gateway",
+        "d":"Border Gateway",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":59,
+        "questions":"__________is any IP-IP network border such as between a service provider and a customer or between a service provider and an enterprise network.",
+        "a":"Edge",
+        "B":"Core",
+        "c":"Access network",
+        "d":"IP core network",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":60,
+        "questions":"__________is any IP-IP network border such as between two service providers.",
+        "a":"Edge",
+        "B":"Core",
+        "c":"Access network",
+        "d":"IP core network",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":61,
+        "questions":"The primary function of the _________is to provide routing and transport of IP packets.",
+        "a":"Access network",
+        "B":"IP core network",
+        "c":"Media Server",
+        "d":"Application Server",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":62,
+        "questions":"__________functions provide the capabilities to manage the NGN in order to provide NGN services with the expected quality, security, and reliability.",
+        "a":"Network attachment control function",
+        "B":"Management functions",
+        "c":"Gateway function",
+        "d":"Service control function",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":63,
+        "questions":"._____________is characteristic of 5G.",
+        "a":"Broadband",
+        "B":"Low latency",
+        "c":"High Data Transfer speed",
+        "d":"All of above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":64,
+        "questions":"NGN is Layered Architecture having _____________ layers",
+        "a":1,
+        "B":2,
+        "c":3,
+        "d":4,
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":65,
+        "questions":"_________ include resource and admission control functions, network attachment control functions as well as mobility management and control functions.",
+        "a":"Transport functions",
+        "B":"Transport control functions",
+        "c":"Access network functions",
+        "d":"Gateway functions",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":66,
+        "questions":"_________provide endorsement of the user, auto-discovery of user equipment capabilities, and other parameters.",
+        "a":"Network attachment control functions",
+        "B":"Access network functions",
+        "c":"Transport functions",
+        "d":"Gateway functions",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":67,
+        "questions":"________ manages and sets standards with regard to the spectrum use",
+        "a":"FCC",
+        "B":"IEEE",
+        "c":"ETSI",
+        "d":"WPC",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":68,
+        "questions":"___________ a leading standards organization that publishes standards that are adopted across industries.",
+        "a":"FCC",
+        "B":"IEEE",
+        "c":"ETSI",
+        "d":"WPC",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":69,
+        "questions":"_______ another standards organization that has contributed many worldwide standards",
+        "a":"FCC",
+        "B":"IEEE",
+        "c":"ETSI",
+        "d":"WPC",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":70,
+        "questions":"___________ With the FCC, defines how WLANs should operate from a regulatory perspective, such as operating frequencies, antenna gain, and transmission power.",
+        "a":"FCC",
+        "B":"IEEE",
+        "c":"ETSI",
+        "d":"ITU-R",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":71,
+        "questions":"___________ Provides information resources related to WLANs with regard to industry trends and usage.",
+        "a":"FCC",
+        "B":"IEEE",
+        "c":"ETSI",
+        "d":"WLANA",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":72,
+        "questions":"________ is the National Radio Regulatory Authority responsible for frequency Spectrum Management, including licensing and catering to the needs of all wireless users (Government and Private) in India.",
+        "a":"FCC",
+        "B":"IEEE",
+        "c":"ETSI",
+        "d":"WPC",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":73,
+        "questions":"_____ mobile wireless communication network was analog and used for voice calls only.",
+        "a":"1G",
+        "B":"2G",
+        "c":"3G",
+        "d":"4G",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":74,
+        "questions":"____________is a digital technology that supports text messaging",
+        "a":"1G",
+        "B":"2G",
+        "c":"3G",
+        "d":"4G",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":75,
+        "questions":"___________mobile technology provided a higher data transmission rate, increased capacity, and provide multimedia support.",
+        "a":"1G",
+        "B":"2G",
+        "c":"3G",
+        "d":"4G",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":76,
+        "questions":"__________integrates 3G with fixed internet to support wireless mobile internet, which is an evolution to mobile technology, and it overcomes the limitations of 3G.",
+        "a":"1G",
+        "B":"2G",
+        "c":"3G",
+        "d":"4G",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":77,
+        "questions":"______is going to be a new revolution in the mobile market which has changed the means to use cell phones within very high bandwidth.",
+        "a":"1G",
+        "B":"5G",
+        "c":"3G",
+        "d":"4G",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":78,
+        "questions":"_________receive a packet that is not labelled yet, insert a label (stack) in front of the packet, and send it on a data link.",
+        "a":"Ingress LSRs",
+        "B":"Egress LSRs",
+        "c":"Intermediate LSRs",
+        "d":"None of the above",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":79,
+        "questions":"______receive labelled packets, remove the label(s), and send them on a data link.",
+        "a":"Ingress LSRs",
+        "B":"Egress LSRs",
+        "c":"Intermediate LSRs",
+        "d":"None of the above",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":80,
+        "questions":"MPLS stands for________",
+        "a":"Multi-protocol label switching",
+        "B":"Multi-protocol layered switching",
+        "c":"Multi-protocol level switching",
+        "d":"None of the above",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":81,
+        "questions":"______receive an incoming labeled packet, perform an operation on it, switch the packet, and send the packet on the correct data link.",
+        "a":"Ingress LSRs",
+        "B":"Egress LSRs",
+        "c":"Intermediate LSRs",
+        "d":"None of the above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":82,
+        "questions":"What is the purpose of End-to-end QoS in NGN?",
+        "a":"To control the quality of service on a per-application basis",
+        "B":"To control the quality of service on a per-network basis",
+        "c":"To provide high quality broadband communication",
+        "d":"To limit the number of users on the network",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":83,
+        "questions":"What did 2G mobile networks define?",
+        "a":"The transition to broadband access",
+        "B":"The support of voice and text only",
+        "c":"The use of kilobits-per-second data rates",
+        "d":"The connection of machines, objects, and devices",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":84,
+        "questions":"Which of the following is a characteristic of 5G networks?",
+        "a":"Low data transfer speed",
+        "B":"High latency",
+        "c":"Limited device capacity",
+        "d":"Massive network capacity",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":85,
+        "questions":"What is the Next Generation Network (NGN)?",
+        "a":" A circuit-switched network",
+        "B":"A packet-based network",
+        "c":"A satellite-based network",
+        "d":"A fiber-optic network",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":86,
+        "questions":"What is the transport technology used in NGN?",
+        "a":"MPLS",
+        "B":"3G WCDMA",
+        "c":"FTTH",
+        "d":"xDSL",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":87,
+        "questions":"What are the functions of the transport stratum?",
+        "a":"Transport functions and access network functions",
+        "B":"Transport functions and transport control functions",
+        "c":"Access network functions and transport control functions",
+        "d":"None of the above",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":88,
+        "questions":"What is the primary function of the IP core network in the NGN architecture?",
+        "a":"To provide routing and transport of IP packets",
+        "B":"To terminate SS7 links and provide MTP Level 1 and Level 2 functionality",
+        "c":"To support the line side interface to the core IP network for use by phones and devices",
+        "d":"To provide call logic and call control functions",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":89,
+        "questions":"Which technology became the base standard for further development in wireless standards after the introduction of the 2G mobile communication system?",
+        "a":"Advanced Mobile Phone System (AMPS)",
+        "B":"Nordic Mobile Phone System (NMTS)",
+        "c":"Total Access Communication System (TACS)",
+        "d":"Global System for Mobile communication (GSM)",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":90,
+        "questions":"Which mobile communication system has limited features on mobile devices and limited hardware capability?",
+        "a":"2G system",
+        "B":"CDMA system",
+        "c":"3G system",
+        "d":"4G system",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":91,
+        "questions":"Which of the following is a disadvantage of the 3G system?",
+        "a":"Lower data rate",
+        "B":"Limited number of users and hardware capability",
+        "c":"Higher bandwidth requirements to support higher data rate",
+        "d":"Limited mobility",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":92,
+        "questions":"Which wireless technology is introduced in 4G system to enhance data rate and network performance?",
+        "a":"LTE",
+        "B":"Wi-Fi",
+        "c":"Bluetooth",
+        "d":"3G",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":93,
+        "questions":"What is a key feature of 5G technology?",
+        "a":"Reduced latency in milliseconds",
+        "B":"Compatibility with previous versions",
+        "c":"Higher data rate up to 1Gbps",
+        "d":"Complex modulation schemes",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":94,
+        "questions":"What is a disadvantage of the 4G system?",
+        "a":"Wide deployment and upgrade is time consuming",
+        "B":"Higher security and reliable network",
+        "c":"Ultra-fast mobile internet up to 10Gbps",
+        "d":"Expensive hardware and infrastructure",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 2 "
+    },
+    {
+        "sr no":95,
+        "questions":"Who is the father of Artificial Intelligence?",
+        "a":"John McCarthy",
+        "B":"Doug Cutting",
+        "c":"William S.",
+        "d":"Erdorf",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":96,
+        "questions":"______is the ability to sense the environment to make decisions and to control action.",
+        "a":"Knowledge",
+        "B":"Intelligence",
+        "c":"Information",
+        "d":"Data",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":97,
+        "questions":"These consist of computer programs that mimic the way the human brain processes information.",
+        "a":"Deep learning",
+        "B":"Machine learning",
+        "c":"Neural networks",
+        "d":"All of the above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":98,
+        "questions":"What is Artificial Intelligence?",
+        "a":"Putting your intelligence into Computer",
+        "B":"Programming with your own intelligence",
+        "c":"Making a Machine intelligent",
+        "d":"Putting more memory into Computer",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":99,
+        "questions":"The first AI programming language was called______.a",
+        "a":"IPL",
+        "B":"FORTRAN",
+        "c":"BASIC",
+        "d":"LISP",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":100,
+        "questions":"A.M. Turing developed a technique for determining whether a computer could or could not demonstrate the Artificial Intelligence, Presently, this technique is called______.",
+        "a":"Turing Test",
+        "B":"Algorithm",
+        "c":"Boolean Algebra",
+        "d":"Logarithm",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":101,
+        "questions":"The philosophy of AI in three-dimensional representations consists in logic, cognition, and computation in the______.",
+        "a":"x-direction",
+        "B":"y-direction",
+        "c":"z-direction",
+        "d":"None of above",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":102,
+        "questions":"Which of the mentioned human behaviour does the AI aim to mimic?",
+        "a":"Thinking",
+        "B":"Sleeping",
+        "c":"Eating",
+        "d":"None of Above",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":103,
+        "questions":"Which of the following is not a goal of AI? ",
+        "a":"Thinking humanly",
+        "B":"Adapting to the environment and situations",
+        "c":"To rule over humans",
+        "d":"Real Life Problem Solving",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":104,
+        "questions":"Weak AI is______.",
+        "a":"The embodiment of human intellectual capabilities within a computer",
+        "B":"A set of computer programs that produce output that would be considered to reflect intelligence if it were generated by humans",
+        "c":"The study of mental faculties through the use of mental models implemented on a computer",
+        "d":"All of the above",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":105,
+        "questions":"______cannot perform beyond its field or limitations, as it is only trained for one specific task.",
+        "a":"General AI",
+        "B":"Strong AI",
+        "c":"Narrow AI",
+        "d":"All of the above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":106,
+        "questions":"Followings are examples of Narrow AI______.",
+        "a":"Self-driving cars",
+        "B":"Speech recognition",
+        "c":"Image recognition",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":107,
+        "questions":"______is a type of intelligence which could perform any intellectual task with efficiency like a human",
+        "a":"Narrow AI",
+        "B":"General AI",
+        "c":"Strong AI",
+        "d":"Super AI",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":108,
+        "questions":"______is a level of Intelligence of System sat which machines could surpass human intelligence and can perform any task better than human with cognitive properties.",
+        "a":"General AI",
+        "B":"Strong AI",
+        "c":"Super AI",
+        "d":"Narrow AI",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":109,
+        "questions":"______type of AI systems do not store memories or past experiences for future actions?",
+        "a":"Reactive Machines",
+        "B":"Limited Memory",
+        "c":"Theory of Mind",
+        "d":"Self-awareness",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":110,
+        "questions":"IBM\u2019s Deep Blue system and Google\u2019s Alpha Go are examples of______.",
+        "a":"Limited Memory",
+        "B":"Self-Awareness",
+        "c":"Theory of Mind",
+        "d":"Reactive Machines",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":111,
+        "questions":"Which type of AI dose not exit in reality?",
+        "a":"Theory of Mind",
+        "B":"Self-Awareness",
+        "c":"Reactive Machines",
+        "d":"Limited Memory",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":112,
+        "questions":"Light, heat, temperature, movement, sound, bump, and pressure these sensors are embedded into______.",
+        "a":"Natural Language Processing",
+        "B":"Expert Systems",
+        "c":"Intelligent Robots",
+        "d":"Vision statement",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":113,
+        "questions":"Doctors use clinical expert system to diagnose the patient is example of______.",
+        "a":"Natural Language Processing",
+        "B":"Expert Systems",
+        "c":"Intelligent Robots",
+        "d":"Vision statement",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":114,
+        "questions":"______is a branch of science that deals with programming the systems so that they automatically learn and improve with experience.",
+        "a":"Deep learning",
+        "B":"Neural network",
+        "c":"Language processing",
+        "d":"Machine learning",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":115,
+        "questions":"Which type of learning deals with learning a function from available training data?",
+        "a":"Deep Learning",
+        "B":"Unsupervised learning",
+        "c":"Supervised learning",
+        "d":"All of the above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":116,
+        "questions":"Which learning makes sense of unlabelled data without having any predefined data set for it straining?",
+        "a":"Deep Learning",
+        "B":"Unsupervised learning",
+        "c":"Supervised learning",
+        "d":"All of the above",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":117,
+        "questions":"Which type of learning is a subfield of machine learning where concerned algorithms are inspired by the structure and function of the brain called artificial neural network? ",
+        "a":"Deep Learning",
+        "B":"Unsupervised learning",
+        "c":"Supervised learning",
+        "d":"All of the above",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":118,
+        "questions":"Machine Leering is a field of Artificial Intelligence consisting of learning algorithms that?",
+        "a":"Improve their performance",
+        "B":"At executing some task",
+        "c":"Overtime with experience",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":119,
+        "questions":"Which of the following is NOT supervised learning?",
+        "a":"Principal Component Analysis (PCA)",
+        "B":"Neural networks",
+        "c":"Support Vector Machines (SVMs)",
+        "d":"Na\u00efve Bayes classifiers",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":120,
+        "questions":"Supervised Learning is______.",
+        "a":"Learning with the help of examples",
+        "B":"Learning with the help of examples",
+        "c":"Learning with the help of teacher",
+        "d":"Learning with computers as supervisor",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":121,
+        "questions":"Unsupervised learning is______.",
+        "a":"Learning without computers",
+        "B":"Problem based learning",
+        "c":"Learning from environment",
+        "d":"Learning from teachers",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":122,
+        "questions":"Neural Computing ______.",
+        "a":"Mimics human brain",
+        "B":"Information processing paradigm",
+        "c":"Both (a) and (b)",
+        "d":"None of the above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":123,
+        "questions":"The core components and constituents of AI are derived from the concept of______.",
+        "a":"Logic",
+        "B":"Cognition",
+        "c":"Computation",
+        "d":"All of above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":124,
+        "questions":"The concepts of cognitive science are______.",
+        "a":"Functional",
+        "B":"Memory and perception",
+        "c":"Both a and b",
+        "d":"None of the above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":125,
+        "questions":"The core entities are inseparable constituents of AI in that these concepts are fused at______.",
+        "a":"Atomic level",
+        "B":"Logical level",
+        "c":"Cognition level",
+        "d":"Functional level",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":126,
+        "questions":"The concepts derived from logic are______.",
+        "a":"Propositional logic",
+        "B":"Tautology",
+        "c":"Predicate calculus",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":127,
+        "questions":"______are based mainly on the principle of pattern recognition.",
+        "a":"Speech processing",
+        "B":"Vision",
+        "c":"Both a and b",
+        "d":"None of above",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":128,
+        "questions":"\u2026\u2026\u2026\u2026\u2026\u2026is the graphical representation of information and data",
+        "a":"Data Analysis",
+        "B":"Data Visualization",
+        "c":"Data Storytelling",
+        "d":"Data engineering",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":129,
+        "questions":"What is the foremost objective of data visualization?",
+        "a":"To convey complex data",
+        "B":"To convey incomplete data",
+        "c":"To convey data correctly",
+        "d":"To make data more complex",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":130,
+        "questions":"Effective data visualization can help to:",
+        "a":"Reveal patterns, trends, and findings from an unbiased viewpoint.",
+        "B":"Provide context, interpret results, and articulate insights.",
+        "c":"Streamline data so your audience can process information.",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":131,
+        "questions":"What is true about Data Visualization?",
+        "a":"Data Visualization is used to communicate information clearly and efficiently to users by the usage of information graphics such as tables and charts.",
+        "B":"Data Visualization helps users in analyzing a large amount of data in a simpler way.",
+        "c":"Data Visualization makes complex data more accessible, understandable, and usable.",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":132,
+        "questions":".\u2026\u2026\u2026\u2026 are values for which arbitrarily fine intermediates exist.",
+        "a":"Continuous data values",
+        "B":"date data values",
+        "c":"Discrete data values",
+        "d":"Categorical ordered data values",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":133,
+        "questions":"\u2026\u2026\u2026\u2026\u2026type of variables is used to represent whole integers",
+        "a":"Numerical continuous",
+        "B":"Numerical discrete",
+        "c":"Categorical ordered",
+        "d":"Numerical integers",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":134,
+        "questions":"The combination of a set of position scales and their relative geometric arrangement is called a \u2026\u2026\u2026\u2026\u2026\u2026",
+        "a":"Cartesian system",
+        "B":"Curved axes",
+        "c":"Nonlinear axes",
+        "d":"Coordinate system",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":135,
+        "questions":"The most widely used coordinate system for data visualization is the \u2026\u2026\u2026\u2026\u2026\u2026\u2026..",
+        "a":"Cartesian coordinates",
+        "B":"Curved axes",
+        "c":"Nonlinear axes",
+        "d":"Polar coordinates",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":136,
+        "questions":"Which coordinate system can be useful for data of a periodic nature, such that data values at one end of the scale can be logically joined to data values at the other end.",
+        "a":"Cartesian coordinates",
+        "B":"Curved axes",
+        "c":"Nonlinear axes",
+        "d":"Polar coordinates",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":137,
+        "questions":"Which of the following is the use case To distinguish groups of data from each otherr color in data visualization?",
+        "a":null,
+        "B":"To represent data values,",
+        "c":"To highlight.",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":138,
+        "questions":"The \u2026\u2026\u2026\u2026\u2026scale is a monochromatic scale that varies from dark to light blue.",
+        "a":"The ColorBrewer Blues",
+        "B":"Accent color scales",
+        "c":"ColorBrewer Dark2",
+        "d":"Ggplot2",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":139,
+        "questions":"Sequential color scale is used when ______.",
+        "a":"Colors are used to distinguish discrete items",
+        "B":"Colors are used to represent data values.",
+        "c":"Colors are used to highlight.",
+        "d":"Colors are used to represent descriptive data",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":140,
+        "questions":"Which color scale is used to represent quantitative data values such as income, temperaature or speed?",
+        "a":"Sequential color scale",
+        "B":"Accent color scale",
+        "c":"Qaulitative color scale",
+        "d":"None of the above",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":141,
+        "questions":"Accent color scale is used when ______.",
+        "a":" Colors are used to distinguish discrete items.",
+        "B":"Colors are used to represent data values.",
+        "c":"Colors are used to highlight.",
+        "d":"Colors are used to represent descriptive data",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":142,
+        "questions":"Qualitative color scale is used when ______.",
+        "a":"Colors are used to distinguish discrete items.",
+        "B":"Colors are used to represent data values.",
+        "c":"Colors are used to highlight.",
+        "d":"Colors are used to represent descriptive data",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":143,
+        "questions":"Which of the following is used to represent proportions?",
+        "a":"Grouped bars",
+        "B":"Dots",
+        "c":"Histogram",
+        "d":"Pie chart",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":144,
+        "questions":"Which is not used to represent distributions?",
+        "a":"Stacked histogram",
+        "B":"Sina plots",
+        "c":"Strip charts",
+        "d":"Stacked bars",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":145,
+        "questions":"Data can be visualized using?",
+        "a":"Graphs",
+        "B":"Charts",
+        "c":"Maps",
+        "d":"All of the above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":146,
+        "questions":"Which one of the following is a most basic and commonly used technique for visualization?",
+        "a":"Line charts",
+        "B":"Scatter plots",
+        "c":"Population pyramids",
+        "d":"Area charts",
+        "ans":"a",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":147,
+        "questions":"The key element of data storytelling",
+        "a":"Narrative",
+        "B":"Visuals",
+        "c":"Data",
+        "d":"All of the Above",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":148,
+        "questions":"\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026is a methodology for communicating information, tailored to a specific audience, with a compelling narrative.",
+        "a":"Data science",
+        "B":"Artificial intelligence",
+        "c":"Data storytelling",
+        "d":"Data visualization",
+        "ans":"c",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":149,
+        "questions":"In data storytelling, internal and external stakeholders are \u2026\u2026\u2026..",
+        "a":"Targeted audience",
+        "B":"General audience",
+        "c":"Specific audience",
+        "d":"Data specific audience",
+        "ans":"b",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":150,
+        "questions":"which of the following is not benefit of data storytelling?",
+        "a":"Providing a human touch to your data.",
+        "B":"Offering value to your audience and industry",
+        "c":"Building credibility as an industry and topic thought leader.",
+        "d":"To represent complex data values",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    },
+    {
+        "sr no":151,
+        "questions":"In Storytelling, how will you communicate to your audience?",
+        "a":"With live presentation",
+        "B":"With a written document or email",
+        "c":"With telephone call",
+        "d":"Both a and b",
+        "ans":"d",
+        "Unnamed: 7":"Chapter 1 "
+    }
+]
